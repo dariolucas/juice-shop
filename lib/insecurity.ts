@@ -28,7 +28,7 @@ interface ResponseWithUser {
   iat?: number
   exp?: number
   bid?: number
-}
+} 
 
 interface IAuthenticatedUsers {
   tokenMap: Record<string, ResponseWithUser>
